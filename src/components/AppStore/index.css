@@ -1,0 +1,78 @@
+.app-bg-container {
+  background-image: linear-gradient(#fff1eb, #ace0f9);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.app-store-container {
+  width: 100%;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.main-heading {
+  font-size: 42px;
+  color: #1e293b;
+  font-family: 'Bree Serif';
+}
+
+.search-bar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #7b8794;
+  border-radius: 8px;
+  padding: 3px;
+}
+
+.search-input {
+  font-size: 18px;
+  height: 30px;
+  background-color: transparent;
+  border: none;
+  outline: none;
+}
+.search-icon {
+  width: 25px;
+  cursor: pointer;
+}
+
+.tabs-list {
+  height: 30px;
+  width: 96%;
+  padding-left: 0px;
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+  margin-bottom: 5px;
+}
+.apps-list {
+  padding-left: 0px;
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+@media screen and (min-width: 768px) {
+  .app-store-container {
+    width: 85%;
+  }
+  .main-heading {
+    font-size: 68px;
+  }
+  .search-input {
+    font-size: 24px;
+    height: 50px;
+    width: 400px;
+  }
+  .search-icon {
+    width: 40px;
+  }
+  .tabs-list {
+    margin-top: 50px;
+    margin-bottom: 30px;
+  }
+}
